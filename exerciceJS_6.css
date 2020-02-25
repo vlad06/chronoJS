@@ -3,15 +3,15 @@ legend {
     font-size: 2em;
 }
 fieldset {
-    width: 300px;
+    width: 400px;
     height: 200px;
     text-align: center;
     border-radius: 20px;
 }
 #start {
-    position: relative;
-    top: 0px;
-    left: 90px;
+    position: absolute;
+    top: 50px;
+    left: 180px;
     background-color: rgb(135, 206, 5);
     width: 80px;
     height: 40px;
@@ -20,9 +20,9 @@ fieldset {
 }
 #pause {
     visibility: hidden;
-    position: relative;
-    top: 0px;
-    left: -90px;
+    position: absolute;
+    top: 50px;
+    left: 80px;
     width: 170px;
     height: 40px;
     font-size: 1.8em;
@@ -30,9 +30,9 @@ fieldset {
 }
 #stop {
     visibility: hidden;
-    position: relative;
-    top: -40px;
-    left: 105px;
+    position: absolute;
+    top: 50px;
+    left: 270px;
     width: 80px;
     height: 40px;
     font-size: 1.8em;
@@ -40,8 +40,9 @@ fieldset {
 }
 span {
     font-size: 4em;
-    position: relative;
-    top: -20px;
+    position: absolute;
+    top: 125px;
+    left: 50px;
     font-weight: bold;
 }
 button {
